@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A4D21F158A478A00FA10AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D21E158A478A00FA10AA /* UIKit.framework */; };
+		B4A4D221158A478A00FA10AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D220158A478A00FA10AA /* Foundation.framework */; };
+		B4A4D223158A478A00FA10AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D222158A478A00FA10AA /* CoreGraphics.framework */; };
+		B4A4D229158A478A00FA10AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4A4D227158A478A00FA10AA /* InfoPlist.strings */; };
+		B4A4D22B158A478A00FA10AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A4D22A158A478A00FA10AA /* main.m */; };
+		B4A4D22F158A478A00FA10AA /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A4D22E158A478A00FA10AA /* DHAppDelegate.m */; };
+		B4A4D232158A478A00FA10AA /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A4D231158A478A00FA10AA /* DHViewController.m */; };
+		B4A4D235158A478A00FA10AA /* DHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A4D233158A478A00FA10AA /* DHViewController.xib */; };
+		B4CC24DA158A47A300BD2DD6 /* DHWarpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CC24D9158A47A300BD2DD6 /* DHWarpView.m */; };
+		B4CC24DD158A486C00BD2DD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CC24DC158A486C00BD2DD6 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4A4D21A158A478900FA10AA /* DHWarpViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHWarpViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A4D21E158A478A00FA10AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4A4D220158A478A00FA10AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4A4D222158A478A00FA10AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4A4D226158A478A00FA10AA /* DHWarpViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHWarpViewExample-Info.plist"; sourceTree = "<group>"; };
+		B4A4D228158A478A00FA10AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4A4D22A158A478A00FA10AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A4D22C158A478A00FA10AA /* DHWarpViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHWarpViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		B4A4D22E158A478A00FA10AA /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		B4A4D230158A478A00FA10AA /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		B4A4D231158A478A00FA10AA /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		B4A4D234158A478A00FA10AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DHViewController.xib; sourceTree = "<group>"; };
+		B4CC24D8158A47A300BD2DD6 /* DHWarpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHWarpView.h; sourceTree = "<group>"; };
+		B4CC24D9158A47A300BD2DD6 /* DHWarpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHWarpView.m; sourceTree = "<group>"; };
+		B4CC24DC158A486C00BD2DD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A4D217158A478900FA10AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A4D21F158A478A00FA10AA /* UIKit.framework in Frameworks */,
+				B4A4D221158A478A00FA10AA /* Foundation.framework in Frameworks */,
+				B4A4D223158A478A00FA10AA /* CoreGraphics.framework in Frameworks */,
+				B4CC24DD158A486C00BD2DD6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A4D20F158A478900FA10AA = {
+			isa = PBXGroup;
+			children = (
+				B4A4D224158A478A00FA10AA /* DHWarpViewExample */,
+				B4A4D21D158A478A00FA10AA /* Frameworks */,
+				B4A4D21B158A478900FA10AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A4D21B158A478900FA10AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A4D21A158A478900FA10AA /* DHWarpViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A4D21D158A478A00FA10AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC24DC158A486C00BD2DD6 /* QuartzCore.framework */,
+				B4A4D21E158A478A00FA10AA /* UIKit.framework */,
+				B4A4D220158A478A00FA10AA /* Foundation.framework */,
+				B4A4D222158A478A00FA10AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A4D224158A478A00FA10AA /* DHWarpViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC24D7158A47A300BD2DD6 /* lib */,
+				B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */,
+				B4A4D22E158A478A00FA10AA /* DHAppDelegate.m */,
+				B4A4D230158A478A00FA10AA /* DHViewController.h */,
+				B4A4D231158A478A00FA10AA /* DHViewController.m */,
+				B4A4D233158A478A00FA10AA /* DHViewController.xib */,
+				B4A4D225158A478A00FA10AA /* Supporting Files */,
+			);
+			path = DHWarpViewExample;
+			sourceTree = "<group>";
+		};
+		B4A4D225158A478A00FA10AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A4D226158A478A00FA10AA /* DHWarpViewExample-Info.plist */,
+				B4A4D227158A478A00FA10AA /* InfoPlist.strings */,
+				B4A4D22A158A478A00FA10AA /* main.m */,
+				B4A4D22C158A478A00FA10AA /* DHWarpViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4CC24D7158A47A300BD2DD6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC24D8158A47A300BD2DD6 /* DHWarpView.h */,
+				B4CC24D9158A47A300BD2DD6 /* DHWarpView.m */,
+			);
+			name = lib;
+			path = ../../lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A4D219158A478900FA10AA /* DHWarpViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A4D238158A478A00FA10AA /* Build configuration list for PBXNativeTarget "DHWarpViewExample" */;
+			buildPhases = (
+				B4A4D216158A478900FA10AA /* Sources */,
+				B4A4D217158A478900FA10AA /* Frameworks */,
+				B4A4D218158A478900FA10AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHWarpViewExample;
+			productName = DHWarpViewExample;
+			productReference = B4A4D21A158A478900FA10AA /* DHWarpViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A4D211158A478900FA10AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Proofe Solutions LLC";
+			};
+			buildConfigurationList = B4A4D214158A478900FA10AA /* Build configuration list for PBXProject "DHWarpViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4A4D20F158A478900FA10AA;
+			productRefGroup = B4A4D21B158A478900FA10AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A4D219158A478900FA10AA /* DHWarpViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A4D218158A478900FA10AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A4D229158A478A00FA10AA /* InfoPlist.strings in Resources */,
+				B4A4D235158A478A00FA10AA /* DHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A4D216158A478900FA10AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A4D22B158A478A00FA10AA /* main.m in Sources */,
+				B4A4D22F158A478A00FA10AA /* DHAppDelegate.m in Sources */,
+				B4A4D232158A478A00FA10AA /* DHViewController.m in Sources */,
+				B4CC24DA158A47A300BD2DD6 /* DHWarpView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4A4D227158A478A00FA10AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A4D228158A478A00FA10AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4A4D233158A478A00FA10AA /* DHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A4D234158A478A00FA10AA /* en */,
+			);
+			name = DHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A4D236158A478A00FA10AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4A4D237158A478A00FA10AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A4D239158A478A00FA10AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHWarpViewExample/DHWarpViewExample-Prefix.pch";
+				INFOPLIST_FILE = "DHWarpViewExample/DHWarpViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4A4D23A158A478A00FA10AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHWarpViewExample/DHWarpViewExample-Prefix.pch";
+				INFOPLIST_FILE = "DHWarpViewExample/DHWarpViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A4D214158A478900FA10AA /* Build configuration list for PBXProject "DHWarpViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A4D236158A478A00FA10AA /* Debug */,
+				B4A4D237158A478A00FA10AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A4D238158A478A00FA10AA /* Build configuration list for PBXNativeTarget "DHWarpViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A4D239158A478A00FA10AA /* Debug */,
+				B4A4D23A158A478A00FA10AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A4D211158A478900FA10AA /* Project object */;
+}
