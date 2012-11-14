@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BDF564C1626651200041A42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDF564B1626651200041A42 /* Cocoa.framework */; };
+		7BDF56561626651300041A42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BDF56541626651300041A42 /* InfoPlist.strings */; };
+		7BDF56581626651300041A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF56571626651300041A42 /* main.m */; };
+		7BDF565C1626651400041A42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7BDF565A1626651400041A42 /* Credits.rtf */; };
+		7BDF565F1626651400041A42 /* MacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF565E1626651400041A42 /* MacAppDelegate.m */; };
+		7BDF56621626651400041A42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BDF56601626651400041A42 /* MainMenu.xib */; };
+		7BDF5669162665E100041A42 /* AZWarpView.h in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF5667162665E100041A42 /* AZWarpView.h */; };
+		7BDF566A162665E100041A42 /* AZWarpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF5668162665E100041A42 /* AZWarpView.m */; };
+		7BDF566C1626685700041A42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDF566B1626685700041A42 /* QuartzCore.framework */; };
 		B4A4D21F158A478A00FA10AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D21E158A478A00FA10AA /* UIKit.framework */; };
 		B4A4D221158A478A00FA10AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D220158A478A00FA10AA /* Foundation.framework */; };
 		B4A4D223158A478A00FA10AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A4D222158A478A00FA10AA /* CoreGraphics.framework */; };
@@ -20,6 +29,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BDF56491626651200041A42 /* AZWarpLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZWarpLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDF564B1626651200041A42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		7BDF564E1626651300041A42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7BDF564F1626651300041A42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7BDF56501626651300041A42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BDF56531626651300041A42 /* AZWarpLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZWarpLib-Info.plist"; sourceTree = "<group>"; };
+		7BDF56551626651300041A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BDF56571626651300041A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BDF56591626651300041A42 /* AZWarpLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZWarpLib-Prefix.pch"; sourceTree = "<group>"; };
+		7BDF565B1626651400041A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7BDF565D1626651400041A42 /* MacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = MacAppDelegate.h; sourceTree = "<group>"; };
+		7BDF565E1626651400041A42 /* MacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAppDelegate.m; sourceTree = "<group>"; };
+		7BDF56611626651400041A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7BDF5667162665E100041A42 /* AZWarpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = AZWarpView.h; sourceTree = "<group>"; };
+		7BDF5668162665E100041A42 /* AZWarpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZWarpView.m; sourceTree = "<group>"; };
+		7BDF566B1626685700041A42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B4A4D21A158A478900FA10AA /* DHWarpViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHWarpViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A4D21E158A478A00FA10AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4A4D220158A478A00FA10AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,7 +53,7 @@
 		B4A4D228158A478A00FA10AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4A4D22A158A478A00FA10AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4A4D22C158A478A00FA10AA /* DHWarpViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHWarpViewExample-Prefix.pch"; sourceTree = "<group>"; };
-		B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
 		B4A4D22E158A478A00FA10AA /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
 		B4A4D230158A478A00FA10AA /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
 		B4A4D231158A478A00FA10AA /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
@@ -39,6 +64,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7BDF56461626651200041A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDF566C1626685700041A42 /* QuartzCore.framework in Frameworks */,
+				7BDF564C1626651200041A42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A4D217158A478900FA10AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +87,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BDF564D1626651300041A42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BDF564E1626651300041A42 /* AppKit.framework */,
+				7BDF564F1626651300041A42 /* CoreData.framework */,
+				7BDF56501626651300041A42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7BDF56511626651300041A42 /* AZWarpLib */ = {
+			isa = PBXGroup;
+			children = (
+				7BDF565D1626651400041A42 /* MacAppDelegate.h */,
+				7BDF565E1626651400041A42 /* MacAppDelegate.m */,
+				7BDF5667162665E100041A42 /* AZWarpView.h */,
+				7BDF5668162665E100041A42 /* AZWarpView.m */,
+				7BDF56601626651400041A42 /* MainMenu.xib */,
+				7BDF56521626651300041A42 /* Supporting Files */,
+			);
+			path = AZWarpLib;
+			sourceTree = "<group>";
+		};
+		7BDF56521626651300041A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BDF56531626651300041A42 /* AZWarpLib-Info.plist */,
+				7BDF56541626651300041A42 /* InfoPlist.strings */,
+				7BDF56571626651300041A42 /* main.m */,
+				7BDF56591626651300041A42 /* AZWarpLib-Prefix.pch */,
+				7BDF565A1626651400041A42 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B4A4D20F158A478900FA10AA = {
 			isa = PBXGroup;
 			children = (
+				7BDF566B1626685700041A42 /* QuartzCore.framework */,
 				B4A4D224158A478A00FA10AA /* DHWarpViewExample */,
+				7BDF56511626651300041A42 /* AZWarpLib */,
 				B4A4D21D158A478A00FA10AA /* Frameworks */,
 				B4A4D21B158A478900FA10AA /* Products */,
 			);
@@ -66,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A4D21A158A478900FA10AA /* DHWarpViewExample.app */,
+				7BDF56491626651200041A42 /* AZWarpLib.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +149,8 @@
 				B4A4D21E158A478A00FA10AA /* UIKit.framework */,
 				B4A4D220158A478A00FA10AA /* Foundation.framework */,
 				B4A4D222158A478A00FA10AA /* CoreGraphics.framework */,
+				7BDF564B1626651200041A42 /* Cocoa.framework */,
+				7BDF564D1626651300041A42 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				B4CC24D7158A47A300BD2DD6 /* lib */,
-				B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */,
 				B4A4D22E158A478A00FA10AA /* DHAppDelegate.m */,
+				B4A4D22D158A478A00FA10AA /* DHAppDelegate.h */,
 				B4A4D230158A478A00FA10AA /* DHViewController.h */,
 				B4A4D231158A478A00FA10AA /* DHViewController.m */,
 				B4A4D233158A478A00FA10AA /* DHViewController.xib */,
@@ -119,6 +193,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7BDF56481626651200041A42 /* AZWarpLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDF56651626651400041A42 /* Build configuration list for PBXNativeTarget "AZWarpLib" */;
+			buildPhases = (
+				7BDF56451626651200041A42 /* Sources */,
+				7BDF56461626651200041A42 /* Frameworks */,
+				7BDF56471626651200041A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZWarpLib;
+			productName = AZWarpLib;
+			productReference = 7BDF56491626651200041A42 /* AZWarpLib.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B4A4D219158A478900FA10AA /* DHWarpViewExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A4D238158A478A00FA10AA /* Build configuration list for PBXNativeTarget "DHWarpViewExample" */;
@@ -159,11 +250,22 @@
 			projectRoot = "";
 			targets = (
 				B4A4D219158A478900FA10AA /* DHWarpViewExample */,
+				7BDF56481626651200041A42 /* AZWarpLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7BDF56471626651200041A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDF56561626651300041A42 /* InfoPlist.strings in Resources */,
+				7BDF565C1626651400041A42 /* Credits.rtf in Resources */,
+				7BDF56621626651400041A42 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A4D218158A478900FA10AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +278,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7BDF56451626651200041A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDF56581626651300041A42 /* main.m in Sources */,
+				7BDF565F1626651400041A42 /* MacAppDelegate.m in Sources */,
+				7BDF5669162665E100041A42 /* AZWarpView.h in Sources */,
+				7BDF566A162665E100041A42 /* AZWarpView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A4D216158A478900FA10AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +303,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7BDF56541626651300041A42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDF56551626651300041A42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BDF565A1626651400041A42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDF565B1626651400041A42 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7BDF56601626651400041A42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDF56611626651400041A42 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		B4A4D227158A478A00FA10AA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -209,6 +346,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7BDF56631626651400041A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWarpLib/AZWarpLib-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "AZWarpLib/AZWarpLib-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BDF56641626651400041A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWarpLib/AZWarpLib-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "AZWarpLib/AZWarpLib-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		B4A4D236158A478A00FA10AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -277,6 +468,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7BDF56651626651400041A42 /* Build configuration list for PBXNativeTarget "AZWarpLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDF56631626651400041A42 /* Debug */,
+				7BDF56641626651400041A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B4A4D214158A478900FA10AA /* Build configuration list for PBXProject "DHWarpViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
